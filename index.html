@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanceWithDreamers - Kpop Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DanceWithDreamers</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#members">Members Only</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tech.html">Tech</a></li> <!-- Link to tech.html -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Video Embed -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Master K-pop Choreography</h1>
+            <p>Learn from professional K-pop dancers and bring your dream to life!</p>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ip28E1XItvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <a href="#services" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At DanceWithDreamers, we provide high-quality K-pop practice videos, guided by professional dancers. Whether you're a beginner or advanced dancer, we help you perfect your moves and stand out in the world of K-pop choreography.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Beginner Lessons</h3>
+                <p>Step-by-step instructions for first-time K-pop dancers.</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CZR4LjSt6gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Advanced Choreography</h3>
+                <p>Take your skills to the next level with advanced lessons.</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OY8oS1SBpas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Exclusive Workshops</h3>
+                <p>Join exclusive live workshops with top K-pop dancers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="members">
+        <h2>Members Only</h2>
+        <div class="login-form">
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+                <p id="error-message" style="display: none; color: red;">Invalid username or password</p>
+            </form>
+        </div>
+        <div id="members-content" style="display: none;">
+            <h3>Welcome, Member!</h3>
+            <p>You now have access to exclusive dance videos and choreography lessons.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach us at:</p>
+        <p><strong>Email:</strong> DanceWithDreamers1@gmail.com</p>
+    </section>
+
+    <!-- AI Bot Section -->
+    <section id="ai-bot">
+        <div class="ai-container">
+            <div class="ai-chat">
+                <div id="chat-box"></div>
+                <input type="text" id="user-input" placeholder="Ask me anything about our dance classes...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DanceWithDreamers. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

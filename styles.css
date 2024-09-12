@@ -1,0 +1,144 @@
+/* Applying the color palette */
+:root {
+    --darkest: #190019;
+    --purple-dark: #2B124C;
+    --purple-mid: #522B5B;
+    --purple-light: #854F6C;
+    --light-pink: #DFB6B2;
+    --lightest: #FBE4D8;
+}
+
+/* General body and text styling */
+body {
+    background-color: var(--lightest);
+    color: var(--darkest);
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: var(--purple-dark);
+    color: var(--lightest);
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: var(--light-pink);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content h1 {
+    color: var(--lightest);
+}
+
+.cta-btn {
+    background-color: var(--purple-mid);
+    color: var(--lightest);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: var(--purple-light);
+}
+
+#about {
+    background-color: var(--light-pink);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#services {
+    background-color: var(--purple-mid);
+    padding: 50px 20px;
+    text-align: center;
+    color: var(--lightest);
+}
+
+.service-cards .card {
+    background-color: var(--purple-light);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#members {
+    background-color: var(--purple-light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.login-form input {
+    background-color: var(--lightest);
+    border: 1px solid var(--darkest);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.login-form button {
+    background-color: var(--darkest);
+    color: var(--lightest);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: var(--purple-dark);
+}
+
+#members-content {
+    color: var(--lightest);
+}
+
+footer {
+    background-color: var(--darkest);
+    color: var(--lightest);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Add these styles to your existing CSS file */
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#members {
+    margin-top: 40px;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#members-content {
+    text-align: center;
+    margin-top: 20px;
+}
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ai-bot {
+    background-color: var(--purple-dark);
+    color: var(--lightest);
+    padding: 20px;
+    text-align: center;
